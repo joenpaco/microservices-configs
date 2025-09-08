@@ -1,8 +1,8 @@
 spring:
   datasource:
-    username: admin
+    username: admin-prod
     hikari:
       maximum-pool-size: 5
       connection-timeout: 20000
     url: jdbc:postgresql://localhost:2345/companies
-    password: admin
+    password: admin-prod
